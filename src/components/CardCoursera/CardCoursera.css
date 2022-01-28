@@ -1,0 +1,35 @@
+.domain-card{
+    box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px,
+rgb(31 31 31 / 12%) 0px 1px 4px;
+    width: 320px;    
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-coursera-card{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.title-coursera-card{
+    font-weight: 600;
+}
+
+.span-coursera-card{
+    color: #636363;
+}
